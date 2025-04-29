@@ -1,0 +1,52 @@
+body{
+    background-color: #5C7285;
+    margin: 0%;
+}
+
+.navar{
+    background-color: #818C78;
+    overflow: auto;
+    width: 100%;
+    position: fixed;
+}
+
+.navar a{
+    text-decoration: none;
+   font-size: 36px;
+   padding: 12px 0;
+   width: 20%;
+   color:floralwhite;
+   text-align: center;
+   float: right;
+   transition: 0.3s;
+}
+
+.navar a:hover{
+    background-color: black;
+    color: goldenrod;
+}
+
+.active{
+    background-color: darkgreen;
+}
+
+.subject{
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #E2E0C8;
+}
+
+.film{
+    width: 100%;
+    border-radius: 10px;
+}
+video{
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.film{
+    box-shadow: lightyellow;
+}
